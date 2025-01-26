@@ -52,7 +52,7 @@ public class DynamicArray {
 			 /*
 			 Esse trecho irá atualizar o dado da posição atual, acessada
 			 pelo loop for, com o dado da posição antereior, o que em suma
-			 "move" para a direita todos os dados que sucedem o dado alterado.
+			 "move" para a direita todos os dados que sucedem a posição alterada.
 			 */
 			array[i] = array[i - 1];
 		}
