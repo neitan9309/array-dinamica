@@ -23,9 +23,9 @@ public class DynamicArray {
 	 a capacidade de acordo com suas necessidades. Atualiza-se a capacidade de acordo
 	 com a entrada (número inteiro) do usuário no argumento do método. 
 	 */
-	public DynamicArray(int capacidade) {
-		this.capacity = capacidade;
-		this.array = new Object [capacidade];
+	public DynamicArray(int capacity) {
+		this.capacity = capacity;
+		this.array = new Object [capacity];
 	}
 	
 	//Método para que o usuário faça a adição de um novo dado no fim da array.
