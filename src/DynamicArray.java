@@ -28,7 +28,7 @@ public class DynamicArray {
 		this.array = new Object [capacity];
 	}
 	
-	//Método para que o usuário faça a adição de um novo dado no fim da array.
+	//Método para que o usuário faça a adição de um novo dado, ele será inserido na primeira posição disponível.
 	public void add(Object data) {
 		
 		if(size >= capacity) {//Condicional que busca o método grow caso o tamanho da array ultrapasse seu limite.
